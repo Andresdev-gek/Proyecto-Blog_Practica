@@ -1,0 +1,31 @@
+body {
+  background: url("../img/orange.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background: #fa7d09;
+
+  box-shadow: 0px 0px 4px saddlebrown;
+}
+
+#menu ul li:hover {
+  background: #fa7d09;
+  border-radius: 18px;
+}
+
+.boton-mas {
+  background: #fa7d09;
+}
+
+form input[type="submit"] {
+  border: 2px solid #fa7d09;
+}
+
+.post .fecha {
+  color: sienna;
+}
+
+#sidebar img {
+  border: 2px solid #fa7d09;
+}

@@ -1,0 +1,31 @@
+body {
+  background: url("../img/blue.jpg");
+  background-attachment: fixed;
+}
+
+#logo {
+  background: #0f4c75;
+
+  box-shadow: 0px 0px 4px #bbe1fa;
+}
+
+#menu ul li:hover {
+  background: #3282b8;
+  border-radius: 18px;
+}
+
+.boton-mas {
+  background: #3282b8;
+}
+
+form input[type="submit"] {
+  border: 2px solid #3282b8;
+}
+
+.post .fecha {
+  color: #0f4c75;
+}
+
+#sidebar img {
+  border: 2px solid #0f4c75;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog con JavaScript</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" href="css/orange.css" />
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
+    <!--Slider - jQuery -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--Moment js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js"></script>
+
+    <!--mis scripts-->
+
+    <script src="js/app.js"></script>
+  </head>
+
+  <body>
+    <div id="selector-theme">
+      <div id="to-orange"></div>
+      <div id="to-blue"></div>
+      <div id="to-black"></div>
+    </div>
+    <section id="contenedor-global">
+      <!-- Cabecera -->
+      <header>
+        <div id="logo">
+          <h1>Blog de practica</h1>
+        </div>
+
+        <div class="clearfix"></div>
+        <nav id="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Mi</a></li>
+            <li><a href="reloj.html">Reloj</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Fin cabecera -->
+
+      <!-- slider -->
+
+      <div class="bxslider">
+        <div>
+          <img src="../Proyecto-Blog/img/slider1.jpg" title="geometry1" />
+        </div>
+        <div>
+          <img src="../Proyecto-Blog/img/slider2.jpg" title="geometry2" />
+        </div>
+        <div>
+          <img src="../Proyecto-Blog/img/slider3.jpg" title="geometry3" />
+        </div>
+      </div>
+
+      <!-- Fin slider -->
+
+      <!-- Contenido -->
+      <section id="contenido">
+        <div id="posts">
+          <article class="post">
+            <h2>Titulo del articulo</h2>
+            <span class="fecha">Fecha de Publicacion</span>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy. Various versions
+              have evolved over the years, sometimes by accident, sometimes on
+              purpose (injected humour and the like).
+            </p>
+            <a href="#" class="boton-mas">Leer mas...</a>
+          </article>
+          <article class="post">
+            <h2>Titulo del articulo</h2>
+            <span class="fecha">Fecha de Publicacion</span>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy. Various versions
+              have evolved over the years, sometimes by accident, sometimes on
+              purpose (injected humour and the like).
+            </p>
+            <a href="#" class="boton-mas">Leer mas...</a>
+          </article>
+        </div>
+        <aside id="sidebar">
+          <div id="about">
+            <h4><span>¿Quien soy?</span></h4>
+            <img src="img/profile.jpeg" alt="foto-perfil" />
+            <p>
+              Many desktop publishing packages and web page editors now use
+              Lorem Ipsum as their default model text, and a search for 'lorem
+              ipsum' will uncover many web sites still in their infancy.
+            </p>
+          </div>
+
+          <div id="login">
+            <h4><span>Identificate</span></h4>
+            <form action="">
+              <label for="email">Email </label> <br />
+              <input type="text" name="email" id="form_email" /> <br />
+
+              <label for="nombre">Nombre </label> <br />
+              <input type="text" name="nombre" id="form_nombre" /> <br />
+
+              <label for="password">Contraseña </label> <br />
+              <input type="password" name="password" id="form_password" />
+              <br />
+
+              <input type="submit" value="Entrar" />
+            </form>
+          </div>
+        </aside>
+
+        <div class="clearfix"></div>
+      </section>
+    </section>
+
+    <footer>
+      Proyecto de practica Andres Lopez
+
+      <a href="#" class="subir">Ir arriba</a>
+    </footer>
+  </body>
+</html>
