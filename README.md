@@ -1,6 +1,8 @@
 # Proyecto-Blog_Practica
 Este es un Blog personal, que he desarrollado como una practica.
 
+He utilizado librerias de JavaScript tales como: jQuery, jQueryUI, MomentJs
+
 Es un proyecto simple soble un blog que nos permite tener varias funcionalidades
 entre ellas las siguientes:
 
